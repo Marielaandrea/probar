@@ -15,7 +15,11 @@ let valor= document.querySelector("#valor").value;
 let tipo= document.querySelector("#tipo").value;
     let cuota=0;
     if (!cliente||!nroserie||!valor){
+<<<<<<< HEAD
         atert("ingresar todos los datos");
+=======
+        atert("ingresar todos los ");
+>>>>>>> 2836513eb846a5fe98c1b1c4295b8b7b71dee61e
     }if(tipo==="rotura"){
         cuota=valor*0.001;
            }else {
